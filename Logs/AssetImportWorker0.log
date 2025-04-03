@@ -1,0 +1,503 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/HOCTAPTAIITC/Unity/MiniCombat
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65236
+Successfully changed project path to: D:/HOCTAPTAIITC/Unity/MiniCombat
+D:/HOCTAPTAIITC/Unity/MiniCombat
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27936] Host "[IP] 192.168.153.162 [Port] 0 [Flags] 2 [Guid] 566841662 [EditorId] 566841662 [Version] 1048832 [Id] WindowsEditor(7,name) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27936] Host "[IP] 192.168.153.162 [Port] 0 [Flags] 2 [Guid] 566841662 [EditorId] 566841662 [Version] 1048832 [Id] WindowsEditor(7,name) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 5.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path D:/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/HOCTAPTAIITC/Unity/MiniCombat/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'D:/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002606 seconds.
+- Loaded All Assemblies, in  0.285 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 233 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.496 seconds
+Domain Reload Profiling: 781ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (496ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (325ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.602 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.824 seconds
+Domain Reload Profiling: 1427ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (825ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (317.8 KB). Loaded Objects now: 4712.
+Memory consumption went from 157.9 MB to 157.6 MB.
+Total: 4.079800 ms (FindLiveObjects: 0.368300 ms CreateObjectMapping: 0.198100 ms MarkObjects: 3.211200 ms  DeleteObjects: 0.298800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.386 seconds
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.988 seconds
+Domain Reload Profiling: 1374ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (989ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (555ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4227 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (290.1 KB). Loaded Objects now: 4729.
+Memory consumption went from 154.5 MB to 154.2 MB.
+Total: 3.374200 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.128200 ms MarkObjects: 2.736600 ms  DeleteObjects: 0.202000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 261716.021956 seconds.
+  path: Assets/Scenes/Map1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be468af474d2f3e3d3da29522c84777') in 0.004058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 291.242483 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c36a6349224b0ebebc1e51428e6fea') in 0.000794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063383 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ea1972c79e2717dc61467c8ce2277e') in 0.040955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 16.388981 seconds.
+  path: Assets/karsiori
+  artifactKey: Guid(d158551a79d08b447b4a2b23ce783176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori using Guid(d158551a79d08b447b4a2b23ce783176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb46940cfc06ddd03f21c3469df2d2b') in 0.000621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.494592 seconds.
+  path: Assets/karsiori/TileMap
+  artifactKey: Guid(f0a42fdbfcc70674095ba99a4a5da981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap using Guid(f0a42fdbfcc70674095ba99a4a5da981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095f04b72c3df23229e342bf6def6cb1') in 0.000540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.191210 seconds.
+  path: Assets/karsiori/TileMap/Decorations
+  artifactKey: Guid(8c8aacf5e651f5c4f925b03ec1f407d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Decorations using Guid(8c8aacf5e651f5c4f925b03ec1f407d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a540d74e85cae4f0d718d74ecae8f763') in 0.000657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045068 seconds.
+  path: Assets/karsiori/TileMap/Decorations/BUSH FOREGROUND 1-1.png
+  artifactKey: Guid(390501f7c18ef384eb17584a5b462691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Decorations/BUSH FOREGROUND 1-1.png using Guid(390501f7c18ef384eb17584a5b462691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e5ce9783cc7c58c5c4c5c1204841dd') in 0.085747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/karsiori/TileMap/Decorations/BUSH FOREGROUND 1-5.png
+  artifactKey: Guid(441f0c2aca2fff545bc517e6f139dcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Decorations/BUSH FOREGROUND 1-5.png using Guid(441f0c2aca2fff545bc517e6f139dcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1247cbf52e7987ebd198dcf039b2b62a') in 0.020067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/karsiori/TileMap/Decorations/BUSH FOREGROUND 1-3.png
+  artifactKey: Guid(a97b342cc5260f04cafe1eb0535e607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Decorations/BUSH FOREGROUND 1-3.png using Guid(a97b342cc5260f04cafe1eb0535e607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e272509c363986e7cfa8ea14037c48') in 0.018520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/karsiori/TileMap/Decorations/GRASS 2-2.png
+  artifactKey: Guid(1ee73367054f56241a4324eb7326adfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Decorations/GRASS 2-2.png using Guid(1ee73367054f56241a4324eb7326adfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9587bb2a9684b2cf88d87a62f7e1f404') in 0.019942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/TileMap/Decorations/GRASS 1-1.png
+  artifactKey: Guid(0601d1c0d4f47414d8f4753656fb214d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Decorations/GRASS 1-1.png using Guid(0601d1c0d4f47414d8f4753656fb214d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa2bc1ea5e9b26610b6184ed6709747') in 0.020399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/karsiori/TileMap/Decorations/GRASS 1-2.png
+  artifactKey: Guid(968fb733146be924a9feb390a617f3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Decorations/GRASS 1-2.png using Guid(968fb733146be924a9feb390a617f3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3ac6671091948af8dbfb4a740e75da') in 0.018461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/karsiori/TileMap/Decorations/MUSHROOM 1-2.png
+  artifactKey: Guid(86a1d6e5913974b46810fb24e91348a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Decorations/MUSHROOM 1-2.png using Guid(86a1d6e5913974b46810fb24e91348a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62d88e842be8a8f84e2bed90b36a1ad') in 0.018935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/karsiori/TileMap/Decorations/BUSH FOREGROUND 1-7.png
+  artifactKey: Guid(68304e1b7849e7843b7784e79792ff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Decorations/BUSH FOREGROUND 1-7.png using Guid(68304e1b7849e7843b7784e79792ff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5031672f64b40f6bdb9d6fd0a4ebc85d') in 0.016960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.726748 seconds.
+  path: Assets/karsiori/TileMap/Backgrounds/BUSH - BACKGROUND.png
+  artifactKey: Guid(6e0fcddb85b3bfd4a9a26b3143f5d12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Backgrounds/BUSH - BACKGROUND.png using Guid(6e0fcddb85b3bfd4a9a26b3143f5d12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e58cb6d160372f791598c6282624138') in 0.028699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/karsiori/TileMap/Backgrounds/WOODS - Second.png
+  artifactKey: Guid(066d770ac5ce1af4ca576794cfe6704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Backgrounds/WOODS - Second.png using Guid(066d770ac5ce1af4ca576794cfe6704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb0b4a4deaaef25383e14e6f446ec46') in 0.027624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.470118 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS.png
+  artifactKey: Guid(b425613db706e0a49821a35253ec9db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS.png using Guid(b425613db706e0a49821a35253ec9db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee780f78b0d15122a1020e807412fab') in 0.238199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.584329 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_30.asset
+  artifactKey: Guid(bfdfe9e169b2ab046845254e1bc615c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_30.asset using Guid(bfdfe9e169b2ab046845254e1bc615c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774a248891edc5ac6a3a87390837467c') in 0.020031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_37.asset
+  artifactKey: Guid(75abc7e4d64066d43817c8e608472486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_37.asset using Guid(75abc7e4d64066d43817c8e608472486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5829ba773fb90502ce4a5dbde193cb') in 0.012323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.058988 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_40.asset
+  artifactKey: Guid(bf913de136965a04493eddbf5c96054c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_40.asset using Guid(bf913de136965a04493eddbf5c96054c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d763bae3e724af4c94b62e6062a816c') in 0.015392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_43.asset
+  artifactKey: Guid(85fa7f3358060554e8cded7c88e2d920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_43.asset using Guid(85fa7f3358060554e8cded7c88e2d920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfb5d836f8e4226522e81950f7d42f1') in 0.013623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_44.asset
+  artifactKey: Guid(3177598e71e6e6d4d884518d3f0eeb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_44.asset using Guid(3177598e71e6e6d4d884518d3f0eeb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d375974056b043f50f1481f1ee2343') in 0.013087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 15.786462 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_51.asset
+  artifactKey: Guid(296966da5c3138140967350445d97b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_51.asset using Guid(296966da5c3138140967350445d97b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3eedef9d32c14c9ea9ad9c8f83480a6') in 0.016056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_54.asset
+  artifactKey: Guid(4e2aa78de94672940906049e0b6677b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_54.asset using Guid(4e2aa78de94672940906049e0b6677b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ef96da9963396b469705ccb1e8dbb8') in 0.016518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_56.asset
+  artifactKey: Guid(4d4880ae419443a47ad9cdd5b2b0272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_56.asset using Guid(4d4880ae419443a47ad9cdd5b2b0272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a80c93e172612ed6066c6054966a3f3') in 0.010547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007744 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_61.asset
+  artifactKey: Guid(4bd2271b3d6a67444937f0c92bd67018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_61.asset using Guid(4bd2271b3d6a67444937f0c92bd67018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d1bcb3870eeba9ec5ddeb0930db14e') in 0.019284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_66.asset
+  artifactKey: Guid(e6b464b9871f4f545a44bd438bd57e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_66.asset using Guid(e6b464b9871f4f545a44bd438bd57e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad68589656bfcc74a053bd69cecafc7') in 0.012987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006564 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_71.asset
+  artifactKey: Guid(36cbf8b8f9cc9014fb00c7ee7b59d85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_71.asset using Guid(36cbf8b8f9cc9014fb00c7ee7b59d85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6613cc0a5ae561ba14649fbff07b21c4') in 0.014674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_73.asset
+  artifactKey: Guid(3fd439784c4b99248b2f2beba089753c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_73.asset using Guid(3fd439784c4b99248b2f2beba089753c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d3dd2838c991ed51db9939a578d201') in 0.014615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.161759 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_81.asset
+  artifactKey: Guid(2adf5a8631b4c4d40a272ad9d2a4cb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_81.asset using Guid(2adf5a8631b4c4d40a272ad9d2a4cb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722f9c0df3d892de10631ef9a73002b7') in 0.017852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_87.asset
+  artifactKey: Guid(31ce9cdfaa5d91b40bf4d34d4969f6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/karsiori/TileMap/Tiles/Tilesheet - WOODS_87.asset using Guid(31ce9cdfaa5d91b40bf4d34d4969f6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b78527c5f2269c1291a82c80491a68') in 0.006215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

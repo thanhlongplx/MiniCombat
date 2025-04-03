@@ -6,7 +6,7 @@ public class Player2 : MonoBehaviour
 {
     public float speed = 10f;
     public float direction;
-    public bool isRight = false;
+    private bool isRight = false;
     public Animator anim;
     private float jumpForce = 10f;
     public bool isGrounded;

@@ -7,12 +7,12 @@ public class Player1 : MonoBehaviour
     public AudioSource audioSource; // Tham chiếu đến AudioSource
     public AudioClip soundClip1; // Tham chiếu đến AudioClip
     public AudioClip soundClip2; // Tham chiếu đến AudioClip
-    public float speed = 10f;
+    private float speed = 10f;
     public float direction;
-    public float jumpForce = 10f;
+    private float jumpForce = 10f;
     public float directionJump;
-    public bool isRight = true;
-    public bool isGrounded;
+    private bool isRight = true;
+    private bool isGrounded;
     private float d;
 
 
